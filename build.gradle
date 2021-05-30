@@ -1,30 +1,14 @@
 plugins {
-    id 'org.springframework.boot' version '2.4.4'
-    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
 }
 
-group = 'com.example'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '1.8'
+group 'com.gradle.springboot'
+version '1.0-SNAPSHOT'
 
 repositories {
-    mavenLocal()
-    maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
     mavenCentral()
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
-
-    implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.16'
-    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.16'
-    implementation group: 'com.alibaba', name: 'fastjson', version: '1.2.62'
-
-
-}
-
-test {
-    useJUnitPlatform()
+    testCompile group: 'junit', name: 'junit', version: '4.12'
 }
