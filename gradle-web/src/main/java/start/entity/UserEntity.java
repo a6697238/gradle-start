@@ -1,4 +1,4 @@
-package com.springboot.start.entity;
+package start.entity;
 
 import lombok.Data;
 import lombok.Setter;

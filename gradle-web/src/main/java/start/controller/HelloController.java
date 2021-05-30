@@ -1,7 +1,7 @@
-package com.springboot.start.controller;
+package start.controller;
 
-import com.springboot.start.entity.UserEntity;
-import com.springboot.start.service.UserService;
+import start.entity.UserEntity;
+import start.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

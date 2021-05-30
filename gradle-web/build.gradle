@@ -1,0 +1,12 @@
+apply plugin: "org.springframework.boot"
+
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    implementation group: 'com.alibaba', name: 'fastjson'
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '3.6.3.Final'
+
+}
+

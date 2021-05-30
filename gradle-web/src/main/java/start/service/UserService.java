@@ -1,7 +1,7 @@
-package com.springboot.start.service;
+package start.service;
 
 import com.alibaba.fastjson.JSON;
-import com.springboot.start.entity.UserEntity;
+import start.entity.UserEntity;
 import org.springframework.stereotype.Service;
 
 @Service
